@@ -7,7 +7,7 @@ export function Welcome({ message }: { message: string }) {
       <header className="flex flex-col items-center gap-9 pt-16">
         <div className="w-[300px] max-w-[100vw] p-4">
           <h1 className="text-5xl font-bold text-center bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-            Somis AI
+            SOMIS AI
           </h1>
         </div>
       </header>
@@ -16,9 +16,7 @@ export function Welcome({ message }: { message: string }) {
         <div className="flex flex-col items-center gap-8">
           <section className="text-center max-w-2xl px-4">
             <h2 className="text-4xl font-bold mb-4">Intelligent Solutions for Tomorrow</h2>
-            <p className="text-xl text-gray-600 dark:text-gray-300">
-              Empowering businesses with cutting-edge AI technology and innovative solutions.
-            </p>
+            
           </section>
 
           <div className="max-w-[300px] w-full space-y-6 px-4">
@@ -48,7 +46,7 @@ export function Welcome({ message }: { message: string }) {
 
       <footer className="text-center py-6">
         <p className="text-gray-600 dark:text-gray-400">
-          &copy; {new Date().getFullYear()} Somis AI. All rights reserved.
+          &copy; {new Date().getFullYear()} SOMIS-AI. All rights reserved.
         </p>
       </footer>
     </div>
@@ -58,7 +56,7 @@ export function Welcome({ message }: { message: string }) {
 const resources = [
   {
     href: "https://somis-ai.com/solutions",
-    text: "Our AI Solutions",
+    text: "Our Expertise",
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
